@@ -23,6 +23,7 @@ public class RegistrationFormWithFakerTests {
             currentAddress = faker.address().fullAddress(),
             subject = "English";
 
+
     String expectedFullName = format("%s %s", firstName, lastName);
     File file = new File("src/test/resources/hdr009.jpg");
 
