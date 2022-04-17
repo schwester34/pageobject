@@ -21,7 +21,7 @@ public class RegistrationFormWithFakerTests {
             email = faker.internet().emailAddress(),
             mobileNumber = faker.number().digits(10),
             currentAddress = faker.address().fullAddress(),
-            subject = "English";
+            subject = "Math";
 
 
     String expectedFullName = format("%s %s", firstName, lastName);

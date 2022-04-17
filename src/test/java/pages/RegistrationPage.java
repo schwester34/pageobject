@@ -54,8 +54,8 @@ public class RegistrationPage {
 
     public RegistrationPage setDateOfBirth(String month, String year, String day) {
         $("#dateOfBirthInput").click();
-        $(".react-datepicker__month-select").selectOption("October");
-        $(".react-datepicker__year-select").selectOption("1993");
+        $(".react-datepicker__month-select").selectOption("February");
+        $(".react-datepicker__year-select").selectOption("1999");
         $(".react-datepicker__day--0" + day + ":not(.react-datepicker__day--outside-month)").click();
 
         return this;
@@ -67,8 +67,8 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage setHobbie() {
-        $("#hobbiesWrapper").$(byText("Reading")).click();
+    public RegistrationPage setHobbies(String hobbies) {
+        $("#hobbiesWrapper").$(byText("Sports")).click();
 
         return this;
     }

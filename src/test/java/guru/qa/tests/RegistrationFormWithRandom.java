@@ -18,7 +18,7 @@ public class RegistrationFormWithRandom {
             lastName = getRandomString(10),
             email = getRandomEmail(),
             mobileNumber = "1232020327",
-            subject = "English",
+            subject = "Math",
             currentAddress = "Lenina 55";
 
     String expectedFullName = format("%s %s", firstName, lastName);
@@ -51,7 +51,7 @@ public class RegistrationFormWithRandom {
         $(".react-datepicker__day--028:not(.react-datepicker__day--outside-month)").click();
 
         $("#subjectsInput").setValue(subject).pressEnter();
-        $("#hobbiesWrapper").$(byText("Reading")).click();
+        $("#hobbiesWrapper").$(byText("Sports")).click();
 
         $("#uploadPicture").uploadFile(file);
         $("#currentAddress").setValue(currentAddress);

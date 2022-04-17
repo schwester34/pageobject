@@ -23,7 +23,7 @@ public class RegistrationFormTests {
         String last_name = "Romanova";
         String email = "mari@rom.eu";
         String mobileNumber = "1232020327";
-        String subject = "English";
+        String subject = "Math";
         String currentAddress = "Lenina 55";
         File file = new File("src/test/resources/hdr009.jpg");
 
